@@ -15,7 +15,7 @@ enum PopupArrowPosition {
   TopRight
 }
 
-class PopupShape extends StatelessWidget {
+class PopupShapes extends StatelessWidget {
   final Color bgColor;
   final Color shadowColor;
   final double shadowRadius;
@@ -23,7 +23,7 @@ class PopupShape extends StatelessWidget {
   final Text child;
   final double width;
 
-  const PopupShape({
+  const PopupShapes({
     this.bgColor = Colors.blue,
     this.shadowColor = Colors.grey,
     this.shadowRadius = 3.0,
