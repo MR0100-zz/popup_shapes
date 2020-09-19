@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:popup_shape/popup_shape.dart';
+import 'package:popup_shape/popup_shapes.dart';
 
 class ShapePainter extends CustomPainter {
   final Color bgColor;
