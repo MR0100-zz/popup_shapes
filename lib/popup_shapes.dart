@@ -24,7 +24,7 @@ class PopupShapes extends StatelessWidget {
   final double width;
   final double height;
 
-  const PopupShapes({
+  PopupShapes({
     this.bgColor = Colors.blue,
     this.shadowColor = Colors.grey,
     this.shadowRadius = 3.0,
@@ -32,7 +32,9 @@ class PopupShapes extends StatelessWidget {
     this.child,
     this.width,
     this.height,
-  });
+  }){
+    assert(height > 55);
+  }
 
   @override
   Widget build(BuildContext context) {
