@@ -22,6 +22,7 @@ class PopupShapes extends StatelessWidget {
   final PopupArrowPosition position;
   final Text child;
   final double width;
+  final double height;
 
   const PopupShapes({
     this.bgColor = Colors.blue,
@@ -30,12 +31,13 @@ class PopupShapes extends StatelessWidget {
     this.position = PopupArrowPosition.CenterLeft,
     this.child,
     this.width,
+    this.height,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 55,
+      height: height,
       width: width,
       child: CustomPaint(
         painter: ShapePainter(
