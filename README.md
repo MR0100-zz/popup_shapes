@@ -68,9 +68,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Container(
-            height: 60.0,
             child: PopupShapes(
               width: 200,
+              height: 60,
               child: Text(
                 'Bottom Left',
                 style: TextStyle(color: Colors.white, fontSize: 16.0),
