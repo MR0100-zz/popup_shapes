@@ -1,13 +1,12 @@
 # popup_shapes
-
+```
 Popup Shapes for Notifications and tooltips.
-
+```
 ## Shapes
 
 * TOP [ LEFT , CENTER , RIGHT ]
 
-<img src="/assets/images/2.jpeg" height="100" width="300"><img src="/assets/images/3.jpeg" height="100" width="300">
-<img src="/assets/images/4.jpeg" height="100" width="300">
+<img src="/assets/images/2.jpeg" height="100" width="300"><img src="/assets/images/3.jpeg" height="100" width="300"><img src="/assets/images/4.jpeg" height="100" width="300">
 
 * CENTER [ LEFT , RIGHT ]
 
@@ -15,21 +14,19 @@ Popup Shapes for Notifications and tooltips.
 
 * BOTTOM [ RIGHT , CENTER , LEFT ]
 
-<img src="/assets/images/6.jpeg" height="100" width="300"><img src="/assets/images/7.jpeg" height="100" width="300">
-<img src="/assets/images/8.jpeg" height="100" width="300">
+<img src="/assets/images/6.jpeg" height="100" width="300"><img src="/assets/images/7.jpeg" height="100" width="300"><img src="/assets/images/8.jpeg" height="100" width="300">
 
 ## How to use
 
-* import following dependencies in pubspec.yaml
-<pre>
+* import following dependencies in [pubspec.yaml](https://dart.dev/tools/pub/pubspec)
+```yaml
 popup_shape:
     git:
       url: https://github.com/MR0100/popup_shapes.git
-</pre>
+```
 
-* explanations.
-  
-<pre>
+* explanations
+```dart
 /// bgColor : it is use for background color of the shape.
 /// shadowColor : it is use for shadow color of shape.
 /// shadowRadius : it is define spred radius of shadow.
@@ -50,12 +47,12 @@ PopupShapes(
   shadowRadius: 5.0,
   shadowColor: Colors.teal,
 )
-</pre>
+```
 
 
 ## Example
 
-<pre>
+```dart
 import 'package:flutter/material.dart';
 import 'package:popup_shape/popup_shapes.dart';
 
@@ -87,4 +84,4 @@ class MyApp extends StatelessWidget {
   }
 }
 
-</pre>
+```
