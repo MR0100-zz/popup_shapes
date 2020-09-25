@@ -33,7 +33,7 @@ class PopupShapes extends StatelessWidget {
     this.width,
     this.height,
   }){
-    assert(height > 55);
+    assert(height > 45);
   }
 
   @override
