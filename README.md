@@ -35,6 +35,7 @@ popup_shape:
 
 PopupShapes(
   width: 200,
+  height: 60,
   child: Text(
     'Bottom Left',
     style: TextStyle(
