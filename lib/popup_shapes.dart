@@ -31,7 +31,7 @@ class PopupShapes extends StatelessWidget {
     this.position = PopupArrowPosition.CenterLeft,
     this.child,
     this.width,
-    this.height,
+    this.height = 55,
   }){
     assert(height > 45);
   }
