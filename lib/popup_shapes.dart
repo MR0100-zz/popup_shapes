@@ -20,7 +20,7 @@ class PopupShapes extends StatelessWidget {
   final Color shadowColor;
   final double shadowRadius;
   final PopupArrowPosition position;
-  final Text child;
+  final Widget child;
   final double width;
   final double height;
 
